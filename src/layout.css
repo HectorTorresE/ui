@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  height: 200px;
+  transition-duration: 2s;
+  transition-property: width;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.hidden {
+  left: -100%;
+}
+
+.box.active {
+  left: 0;
+}

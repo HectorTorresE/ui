@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+.reservation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4em;
+  overflow-y: scroll;
+  height: 100vh;
+}
